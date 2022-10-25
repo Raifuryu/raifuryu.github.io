@@ -1,0 +1,24 @@
+.body-background {
+  background-image: url('/image/body-background.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2
+  );
+}
+
+/*@media (min-aspect-ratio: 16/9) {
+  .body-background{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .body-background{
+    width: auto;
+    height: 100%;
+  }
+}*/
