@@ -1,24 +1,28 @@
+body {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #131316;
+}
+
+section {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  align-content: center;
+}
+
 .body-background {
   background-image: url('/image/body-background.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  align-content: center;
   min-height: 100vh;
   position: relative;
-  color: white;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2
-  );
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
-/*@media (min-aspect-ratio: 16/9) {
-  .body-background{
-    width: 100%;
-    height: auto;
-  }
+.summary-section {
+  background-color: #131316;
 }
-
-@media (max-aspect-ratio: 16/9) {
-  .body-background{
-    width: auto;
-    height: 100%;
-  }
-}*/
